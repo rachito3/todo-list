@@ -11,19 +11,10 @@
             "dest": "/public/build/$1"
         },
         {
-            "src": "/favicon.ico",
-            "dest": "/public/favicon.ico"
-        },
-        {
-            "src": "/robots.txt",
-            "dest": "/public/robots.txt"
-        },
-        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
     "buildCommand": "bash build.sh",
-    "outputDirectory": "public",
-    "public": true
+    "outputDirectory": "public"
 }
